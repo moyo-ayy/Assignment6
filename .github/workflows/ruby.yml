@@ -16,5 +16,5 @@ jobs:
         run: bundle install
       - name: Run tests
         run: bundle exec ruby test_hello.rb
-      - name: Run RuboCop
+      - name: Run linting
         run: bundle exec rubocop
